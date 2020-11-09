@@ -1,13 +1,13 @@
 # The Emoji Movie
 
-An emoji-based `setInterval` project that, despite being a set of tiny terminal animations, is still a better movie than the original.
+An emoji-based `setInterval` project that, despite being a set of tiny terminal animations, is still better than the film of the same name.
 
 
 ### Introduction
 
-The amazing thing about code is that it runs nearly instantaneously. But this can actually be a problem; how does a super fast computer interact with slow, slow, slooooow humans? The answer:the computer waits. A LOT.
+The amazing thing about code is that it runs nearly instantaneously. But this can actually be a problem; how does a super fast computer interact with slow, slow, slooooow humans? The answer: the computer waits. A LOT.
 
-The way we make the JavaScript interpreter slow down to human speed and wait for us is primarily through a technique called callbacks. What we do is pass the code we want to run to a node (or browser) function, and that built-in function is in charge of running it later, at the appropriate time for the human-speed user. When the user clicks to switch to dark mode, or a message comes in from another slow human, our environment (usually node or a browser) runs the code we told it to in that situation.
+The way we make the JavaScript interpreter slow down to human speed and wait for us is primarily through a technique called callbacks. What we do is pass the code we want to run to a `node` (or browser) function, and that built-in function is in charge of running it later, at the appropriate time for the human-speed user. When the user clicks to switch to dark mode, or a message comes in from another slow human, our environment (usually `node` or a browser) runs the code we told it to in that situation.
 
 And that's asynchronous code!
 
